@@ -26,5 +26,5 @@ test('add additional book and return 2', () => {
     var b = new O.Book("Alices Adventures in Wonderland","Lewis Carroll",544,1865);
     O.addbook(b);
     //Assert
-    expect(O.getbook()).toBe(1);
+    expect(O.getbook()).toBe(2);
 });
