@@ -1,8 +1,6 @@
 
 let arr = new Array();
-// arr = [
-//     ['title','author','length','year']
-// ];
+// arr[0] = ("The Hobbit by J.R.R","Tolkein",320,1937);
 
 function getbook(){
     return arr.length;
