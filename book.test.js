@@ -5,5 +5,11 @@ test('Empty List', () => {
     expect(getbook()).toBe(0);
 }); 
 
-// // 2. Given that I have an empty list, when I add the first book to my list then I expect numberRead to return 1.
-// test()
+// 2. Given that I have an empty list, when I add the first book to my list then I expect numberRead to return 1.
+
+    test('add first book and return 1', () => {
+        //Act
+        addbook("The Hobbit","J.R.R Tolkein",320,1937);
+        //Assert
+        expect(getbook()).toBe(1);
+    });
