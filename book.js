@@ -6,6 +6,13 @@ class Book{
         this.year = year;
     }
 }
+class ReadingList{
+    constructor(book,dateread,rating){
+        this.book = book;
+        this.dateread = dateread;
+        this.rating = rating;
+    }
+}
 
 let arr = new Array();
 
@@ -17,9 +24,11 @@ function addbook(b){
     arr.push(b);
 }
 
+
 module.exports = {
     getbook,
     Book,
-    addbook
+    addbook,
+    ReadingList
 }
 
